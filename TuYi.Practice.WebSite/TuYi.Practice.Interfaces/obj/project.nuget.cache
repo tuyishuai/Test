@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8ppaUUWbdnZULPVCKK+UmtezlEteZWlaXK1SOptUbemCOx9RjbVbL6VIY2UvC93pHoVWuXsyTt1aFSgMcX9bkQ==",
+  "dgSpecHash": "j4rDg00kUwEfrh3T/jvz+OrryjjXWVBav4hh9FUzhJW+j4GbFefwwIXPzfhiKXX5vvQpwt+wRJ+9YnQSjHgxmA==",
   "success": true,
-  "projectFilePath": "D:\\Vs2022工作项目\\TuYi.Practice.WebSite\\TuYi.Practice.Interfaces\\TuYi.Practice.Interfaces.csproj",
+  "projectFilePath": "C:\\Users\\TUYISSR\\Source\\Repos\\tuyishuai\\Test\\TuYi.Practice.WebSite\\TuYi.Practice.Interfaces\\TuYi.Practice.Interfaces.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TUYISSR\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
     "C:\\Users\\TUYISSR\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",

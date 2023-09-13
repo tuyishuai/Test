@@ -8307,11 +8307,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Vs2022工作项目\\TuYi.Practice.WebSite\\TuYi.Practice.Framework\\TuYi.Practice.Framework.csproj",
+      "projectUniqueName": "C:\\Users\\TUYISSR\\Source\\Repos\\tuyishuai\\Test\\TuYi.Practice.WebSite\\TuYi.Practice.Framework\\TuYi.Practice.Framework.csproj",
       "projectName": "TuYi.Practice.Framework",
-      "projectPath": "D:\\Vs2022工作项目\\TuYi.Practice.WebSite\\TuYi.Practice.Framework\\TuYi.Practice.Framework.csproj",
+      "projectPath": "C:\\Users\\TUYISSR\\Source\\Repos\\tuyishuai\\Test\\TuYi.Practice.WebSite\\TuYi.Practice.Framework\\TuYi.Practice.Framework.csproj",
       "packagesPath": "C:\\Users\\TUYISSR\\.nuget\\packages\\",
-      "outputPath": "D:\\Vs2022工作项目\\TuYi.Practice.WebSite\\TuYi.Practice.Framework\\obj\\",
+      "outputPath": "C:\\Users\\TUYISSR\\Source\\Repos\\tuyishuai\\Test\\TuYi.Practice.WebSite\\TuYi.Practice.Framework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TUYISSR\\AppData\\Roaming\\NuGet\\NuGet.Config",

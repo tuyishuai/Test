@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DCEYpceePub/jL6JmFnPjxmGoeuoLuaCcmm67t1QPNoWBCIWl7ThG8ETPBtn7EOlm3yG8Zi4kS8s5OatcLGepQ==",
+  "dgSpecHash": "E/R2qKJoO9+Dmxne5xj7JsFxFLTSG4xBVUxEcMA/ym8EfGfRANoz8ClChzULEsFTUbu+mdq+inTOjvlD/qWfUQ==",
   "success": true,
-  "projectFilePath": "D:\\Vs2022工作项目\\TuYi.Practice.WebSite\\TuYi.Practice.SqlSugarMigration\\TuYi.Practice.SqlSugarMigration.csproj",
+  "projectFilePath": "C:\\Users\\TUYISSR\\Source\\Repos\\tuyishuai\\Test\\TuYi.Practice.WebSite\\TuYi.Practice.SqlSugarMigration\\TuYi.Practice.SqlSugarMigration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TUYISSR\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
     "C:\\Users\\TUYISSR\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",

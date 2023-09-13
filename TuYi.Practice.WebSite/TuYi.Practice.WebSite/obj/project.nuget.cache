@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CjQ21GitFmsxqbaEpr/7uXFHC5MMeoK864fRtvr7sWIgTpaLdS+jSfTUdxxacrCeYrnHxajfp5o8PcAt5CF22A==",
+  "dgSpecHash": "icjzwr13vIFRdRtMJsgy9l5NwCen/5sEc49cZg0Vk6yeFIlQ+HtfPyG5hoj/tmEQLkWeKtdtCVA447ChnXJMZQ==",
   "success": true,
-  "projectFilePath": "D:\\Vs2022工作项目\\TuYi.Practice.WebSite\\TuYi.Practice.WebSite\\TuYi.Practice.WebSite.csproj",
+  "projectFilePath": "C:\\Users\\TUYISSR\\Source\\Repos\\tuyishuai\\Test\\TuYi.Practice.WebSite\\TuYi.Practice.WebSite\\TuYi.Practice.WebSite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TUYISSR\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
     "C:\\Users\\TUYISSR\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",

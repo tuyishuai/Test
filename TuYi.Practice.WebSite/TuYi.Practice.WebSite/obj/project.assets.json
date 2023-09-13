@@ -8946,11 +8946,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Vs2022工作项目\\TuYi.Practice.WebSite\\TuYi.Practice.WebSite\\TuYi.Practice.WebSite.csproj",
+      "projectUniqueName": "C:\\Users\\TUYISSR\\Source\\Repos\\tuyishuai\\Test\\TuYi.Practice.WebSite\\TuYi.Practice.WebSite\\TuYi.Practice.WebSite.csproj",
       "projectName": "TuYi.Practice.WebSite",
-      "projectPath": "D:\\Vs2022工作项目\\TuYi.Practice.WebSite\\TuYi.Practice.WebSite\\TuYi.Practice.WebSite.csproj",
+      "projectPath": "C:\\Users\\TUYISSR\\Source\\Repos\\tuyishuai\\Test\\TuYi.Practice.WebSite\\TuYi.Practice.WebSite\\TuYi.Practice.WebSite.csproj",
       "packagesPath": "C:\\Users\\TUYISSR\\.nuget\\packages\\",
-      "outputPath": "D:\\Vs2022工作项目\\TuYi.Practice.WebSite\\TuYi.Practice.WebSite\\obj\\",
+      "outputPath": "C:\\Users\\TUYISSR\\Source\\Repos\\tuyishuai\\Test\\TuYi.Practice.WebSite\\TuYi.Practice.WebSite\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TUYISSR\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8967,14 +8967,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Vs2022工作项目\\TuYi.Practice.WebSite\\TuYi.Practice.Framework\\TuYi.Practice.Framework.csproj": {
-              "projectPath": "D:\\Vs2022工作项目\\TuYi.Practice.WebSite\\TuYi.Practice.Framework\\TuYi.Practice.Framework.csproj"
+            "C:\\Users\\TUYISSR\\Source\\Repos\\tuyishuai\\Test\\TuYi.Practice.WebSite\\TuYi.Practice.Framework\\TuYi.Practice.Framework.csproj": {
+              "projectPath": "C:\\Users\\TUYISSR\\Source\\Repos\\tuyishuai\\Test\\TuYi.Practice.WebSite\\TuYi.Practice.Framework\\TuYi.Practice.Framework.csproj"
             },
-            "D:\\Vs2022工作项目\\TuYi.Practice.WebSite\\TuYi.Practice.Interfaces\\TuYi.Practice.Interfaces.csproj": {
-              "projectPath": "D:\\Vs2022工作项目\\TuYi.Practice.WebSite\\TuYi.Practice.Interfaces\\TuYi.Practice.Interfaces.csproj"
+            "C:\\Users\\TUYISSR\\Source\\Repos\\tuyishuai\\Test\\TuYi.Practice.WebSite\\TuYi.Practice.Interfaces\\TuYi.Practice.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\TUYISSR\\Source\\Repos\\tuyishuai\\Test\\TuYi.Practice.WebSite\\TuYi.Practice.Interfaces\\TuYi.Practice.Interfaces.csproj"
             },
-            "D:\\Vs2022工作项目\\TuYi.Practice.WebSite\\TuYi.Practice.Services\\TuYi.Practice.Services.csproj": {
-              "projectPath": "D:\\Vs2022工作项目\\TuYi.Practice.WebSite\\TuYi.Practice.Services\\TuYi.Practice.Services.csproj"
+            "C:\\Users\\TUYISSR\\Source\\Repos\\tuyishuai\\Test\\TuYi.Practice.WebSite\\TuYi.Practice.Services\\TuYi.Practice.Services.csproj": {
+              "projectPath": "C:\\Users\\TUYISSR\\Source\\Repos\\tuyishuai\\Test\\TuYi.Practice.WebSite\\TuYi.Practice.Services\\TuYi.Practice.Services.csproj"
             }
           }
         }
