@@ -1,0 +1,63 @@
+﻿@using TuYi.Practice.DTO;
+@{
+    ViewData["Title"] = "添加后台用户";
+}
+@model UserInfoDTO
+<style>
+    .field-validation-error {
+        color: red
+    }
+</style>
+@using (Html.BeginForm("Add", "UserInfo", FormMethod.Post, new { @class = "row g-3" }))
+{
+    <p></p>
+    <div class="row mb-3">
+        @Html.LabelFor(s=>s.Name,new { @class = "col-sm-1 col-form-label"})
+        <div class="col-md-4">
+            @Html.TextBoxFor(c=>c.Name,new { @class="form-control",@placeholder="请收入用户名" })
+            @Html.ValidationMessageFor(c=>c.Name)
+        </div>
+        @Html.LabelFor(c=>c.Sex,new { @class="col-sm-1 col-form-label"})
+        <div class="col-md-4">
+            @Html.DropDownListFor(c=>c.Sex,ViewData["userGenderList"] as IList<SelectListItem>,new { @class="form-select" })
+            @Html.ValidationMessageFor(c=>c.Sex)
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        @Html.LabelFor(s=>s.Password,new { @class = "col-sm-1 col-form-label"})
+        <div class="col-md-4">
+            @Html.PasswordFor(c=>c.Password,new { @class="form-control",@placeholder="请收入密码" })
+            @Html.ValidationMessageFor(c=>c.Password)
+        </div>
+        @Html.LabelFor(s=>s.ConfirmPassword,new { @class = "col-sm-1 col-form-label"})
+        <div class="col-md-4">
+            @Html.PasswordFor(c=>c.ConfirmPassword,new { @class="form-control",@placeholder="请再次输入密码" })
+            @Html.ValidationMessageFor(c=>c.ConfirmPassword)
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        @Html.LabelFor(s=>s.Mobile,new { @class = "col-sm-1 col-form-label"})
+        <div class="col-md-4">
+            @Html.TextBoxFor(c=>c.Mobile,new { @class="form-control",@placeholder="请收入手机号" })
+            @Html.ValidationMessageFor(c=>c.Mobile)
+        </div>
+        @Html.LabelFor(s=>s.UserType,new { @class = "col-sm-1 col-form-label"})
+        <div class="col-md-4">
+            @Html.DropDownListFor(c=>c.UserType,ViewData["userTypeList"] as IList<SelectListItem>,new { @class="form-select",@disabled = true })
+            @Html.ValidationMessageFor(c=>c.UserType)
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        @Html.LabelFor(s=>s.Address,new { @class = "col-sm-1 col-form-label"})
+        <div class="col-md-9">
+            @Html.TextAreaFor(c=>c.Address,new { @class="form-control",@placeholder="请收入地址" })
+        </div>
+    </div>
+
+    <div class="col-12">
+        <button type="submit" class="btn btn-primary">提交</button>
+    </div>
+}

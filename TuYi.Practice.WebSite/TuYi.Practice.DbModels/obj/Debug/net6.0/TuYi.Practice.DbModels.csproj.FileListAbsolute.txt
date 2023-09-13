@@ -1,0 +1,12 @@
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DbModels\bin\Debug\net6.0\TuYi.Practice.DbModels.deps.json
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DbModels\bin\Debug\net6.0\TuYi.Practice.DbModels.dll
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DbModels\bin\Debug\net6.0\TuYi.Practice.DbModels.pdb
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DbModels\obj\Debug\net6.0\TuYi.Practice.DbModels.csproj.AssemblyReference.cache
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DbModels\obj\Debug\net6.0\TuYi.Practice.DbModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DbModels\obj\Debug\net6.0\TuYi.Practice.DbModels.AssemblyInfoInputs.cache
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DbModels\obj\Debug\net6.0\TuYi.Practice.DbModels.AssemblyInfo.cs
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DbModels\obj\Debug\net6.0\TuYi.Practice.DbModels.csproj.CoreCompileInputs.cache
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DbModels\obj\Debug\net6.0\TuYi.Practice.DbModels.dll
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DbModels\obj\Debug\net6.0\refint\TuYi.Practice.DbModels.dll
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DbModels\obj\Debug\net6.0\TuYi.Practice.DbModels.pdb
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DbModels\obj\Debug\net6.0\ref\TuYi.Practice.DbModels.dll

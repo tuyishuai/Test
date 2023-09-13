@@ -1,0 +1,12 @@
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.Framework\bin\Debug\net6.0\TuYi.Practice.Framework.deps.json
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.Framework\bin\Debug\net6.0\TuYi.Practice.Framework.dll
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.Framework\bin\Debug\net6.0\TuYi.Practice.Framework.pdb
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.Framework\obj\Debug\net6.0\TuYi.Practice.Framework.csproj.AssemblyReference.cache
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.Framework\obj\Debug\net6.0\TuYi.Practice.Framework.GeneratedMSBuildEditorConfig.editorconfig
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.Framework\obj\Debug\net6.0\TuYi.Practice.Framework.AssemblyInfoInputs.cache
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.Framework\obj\Debug\net6.0\TuYi.Practice.Framework.AssemblyInfo.cs
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.Framework\obj\Debug\net6.0\TuYi.Practice.Framework.csproj.CoreCompileInputs.cache
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.Framework\obj\Debug\net6.0\TuYi.Practice.Framework.dll
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.Framework\obj\Debug\net6.0\refint\TuYi.Practice.Framework.dll
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.Framework\obj\Debug\net6.0\TuYi.Practice.Framework.pdb
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.Framework\obj\Debug\net6.0\ref\TuYi.Practice.Framework.dll

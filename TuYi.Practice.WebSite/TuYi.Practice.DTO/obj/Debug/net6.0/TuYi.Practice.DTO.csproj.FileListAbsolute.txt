@@ -1,0 +1,15 @@
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DTO\bin\Debug\net6.0\TuYi.Practice.DTO.deps.json
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DTO\bin\Debug\net6.0\TuYi.Practice.DTO.dll
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DTO\bin\Debug\net6.0\TuYi.Practice.DTO.pdb
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DTO\bin\Debug\net6.0\TuYi.Practice.Framework.dll
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DTO\bin\Debug\net6.0\TuYi.Practice.Framework.pdb
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DTO\obj\Debug\net6.0\TuYi.Practice.DTO.csproj.AssemblyReference.cache
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DTO\obj\Debug\net6.0\TuYi.Practice.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DTO\obj\Debug\net6.0\TuYi.Practice.DTO.AssemblyInfoInputs.cache
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DTO\obj\Debug\net6.0\TuYi.Practice.DTO.AssemblyInfo.cs
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DTO\obj\Debug\net6.0\TuYi.Practice.DTO.csproj.CoreCompileInputs.cache
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DTO\obj\Debug\net6.0\TuYi.Practice.DTO.csproj.CopyComplete
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DTO\obj\Debug\net6.0\TuYi.Practice.DTO.dll
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DTO\obj\Debug\net6.0\refint\TuYi.Practice.DTO.dll
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DTO\obj\Debug\net6.0\TuYi.Practice.DTO.pdb
+D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DTO\obj\Debug\net6.0\ref\TuYi.Practice.DTO.dll

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="7.1.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.21" />
+    <PackageReference Include="SqlSugarCore" Version="5.1.4.105" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TuYi.Practice.Framework\TuYi.Practice.Framework.csproj" />
+    <ProjectReference Include="..\TuYi.Practice.Interfaces\TuYi.Practice.Interfaces.csproj" />
+    <ProjectReference Include="..\TuYi.Practice.Services\TuYi.Practice.Services.csproj" />
+  </ItemGroup>
+
+</Project>

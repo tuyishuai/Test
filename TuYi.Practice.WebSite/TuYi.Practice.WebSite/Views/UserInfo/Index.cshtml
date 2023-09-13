@@ -1,0 +1,51 @@
+﻿@using TuYi.Practice.DTO
+@using TuYi.Practice.Framework.Models
+
+@{
+    ViewBag.Title = "用户管理";
+}
+
+@model PagingData<UserInfoDTO>
+<h1>用户管理</h1>
+
+@using (Html.BeginForm("Index", "UserInfo", FormMethod.Get, new { @class = "row g-3" }))
+{
+    <P></P>
+    <div class="row mb-3">
+        <label class="col-sm-1 col-form-label">用户类型</label>
+        <div class="col-sm-2">
+            @Html.DropDownList("userType",ViewData["userTypeList"] as IList<SelectListItem>,new { @class="form-select",@onchange="$('form').submit()" })
+        </div>
+        <label class="col-sm-1 col-form-label">用户状态</label>
+        <div class="col-sm-2">
+            @Html.DropDownList("userStatus",ViewData["userStatusList"] as IList<SelectListItem>,new { @class="form-select",@onchange="$('form').submit()"  })
+        </div>
+        <label class="col-sm-1 col-form-label">性别</label>
+        <div class="col-sm-2">
+            @Html.DropDownList("userGender",ViewData["userGenderList"] as IList<SelectListItem>,new { @class="form-select",@onchange="$('form').submit()" })
+        </div>
+    </div>
+    <div class="row">
+        <label class="col-sm-1 col-form-label">关键字</label>
+        <div class="col-sm-2">
+            @Html.TextBox("searchString", @Model.SearchString, new { @class = "form-control" , @placeholder="关键字" })
+        </div>
+        <div class="col-sm-1">
+            <button type="submit" class="btn btn-primary mb-3">查询</button>
+        </div>
+        <div class="col-sm-3">
+            <a href="/UserInfo/Add">新增后台用户</a>
+        </div>
+    </div>
+    <div class="mb-3 row" id="partialajaxlist" style="width:100%">
+        @await Html.PartialAsync("PartialUserList", Model.DataList)
+        <Paging total="@Model.RecordCount"
+            page-index="@Model.PageIndex"
+            page-size="@Model.PageSize"
+            route-url="/UserInfo/Index"
+            query="">
+        </Paging>
+        @*helper-for="DataList"*@
+    </div>
+
+}

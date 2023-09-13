@@ -1,0 +1,94 @@
+﻿@using TuYi.Practice.DTO;
+@using TuYi.Practice.Framework.CustomEnum
+@model List<UserInfoDTO>
+<table class="table table-hover">
+    <tr>
+        <th>Id</th>
+        <th>名称</th>
+        <th>用户类型</th>
+        <th>手机号</th>
+        <th>性别</th>
+        <th>状态</th>
+        <th>创建时间</th>
+        <th>地址</th>
+        <th>操作</th>
+    </tr>
+    @foreach (UserInfoDTO item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @switch ((UserTypeEnum)item.UserType)
+                {
+                    case UserTypeEnum.Administrators:
+                        <button type="button" class="btn btn-success">@Html.DisplayFor(modelItem => item.UserTypeRemark)</button>
+                        break;
+                    case UserTypeEnum.Anchor:
+                        <button type="button" class="btn btn-warning">@Html.DisplayFor(modelItem => item.UserTypeRemark)</button>
+                        break;
+                    case UserTypeEnum.Member:
+                        <button type="button" class="btn btn-secondary">@Html.DisplayFor(modelItem => item.UserTypeRemark)</button>
+                        break;
+                    default:
+                        break;
+                }
+                @*  @Html.DisplayFor(modelItem => item.UserTypeRemark)*@
+
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mobile)
+            </td>
+            <td>
+                @switch ((GenderEnum)item.Sex)
+                {
+                    case GenderEnum.Male:
+                        <button type="button" class="btn btn-secondary">@Html.DisplayFor(modelItem => item.SexRemark)</button>
+                        break;
+                    case GenderEnum.Female:
+                        <button type="button" class="btn btn-warning">@Html.DisplayFor(modelItem => item.SexRemark)</button>
+                        break;
+                    case GenderEnum.Simon:
+                        <button type="button" class="btn btn-danger">@Html.DisplayFor(modelItem => item.SexRemark)</button>
+                        break;
+                    default:
+                        break;
+                }
+                @*  @Html.DisplayFor(modelItem => item.SexRemark)*@
+            </td>
+            <td>
+                @switch ((UserStatusEnum)item.Status)
+                {
+                    case UserStatusEnum.Frozen:
+                        <button type="button" class="btn btn-info">@Html.DisplayFor(modelItem => item.StatusRemark)</button>
+                        break;
+                    case UserStatusEnum.Normal:
+                        <button type="button" class="btn btn-success">@Html.DisplayFor(modelItem => item.StatusRemark)</button>
+                        break;
+                    case UserStatusEnum.Delete:
+                        <button type="button" class="btn btn-danger">@Html.DisplayFor(modelItem => item.StatusRemark)</button>
+                        break;
+                    default:
+                        break;
+                }
+
+                @* @Html.DisplayFor(modelItem => item.UserStatusRemark)*@
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                <button type="button" onclick="alert(123)" class="btn btn-info">详情</button>
+                <button type="button" onclick="alert(234)" class="btn btn-secondary">编辑</button>
+                <button type="button" onclick="confirm(ajaxDelete,@item.Id)" class="btn btn-danger">删除</button>
+            </td>
+        </tr>
+    }
+</table>
