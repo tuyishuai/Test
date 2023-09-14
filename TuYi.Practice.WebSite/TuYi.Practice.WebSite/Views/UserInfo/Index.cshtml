@@ -33,19 +33,66 @@
         <div class="col-sm-1">
             <button type="submit" class="btn btn-primary mb-3">查询</button>
         </div>
-        <div class="col-sm-3">
-            <a href="/UserInfo/Add">新增后台用户</a>
-        </div>
+    </div>
+    <div class="row">
+        <a href="/UserInfo/Add">新增后台用户</a>
     </div>
     <div class="mb-3 row" id="partialajaxlist" style="width:100%">
         @await Html.PartialAsync("PartialUserList", Model.DataList)
         <Paging total="@Model.RecordCount"
-            page-index="@Model.PageIndex"
-            page-size="@Model.PageSize"
-            route-url="/UserInfo/Index"
-            query="">
+                page-index="@Model.PageIndex"
+                page-size="@Model.PageSize"
+                route-url="/UserInfo/Index"
+                query="">
         </Paging>
         @*helper-for="DataList"*@
     </div>
 
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="modal_content"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary" id="modal_func">确定</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@section scripts
+    {
+    <script type="text/javascript">
+
+        function openEdit(id) {
+            window.location = `/UserInfo/Edit?id=${id}`;
+        }
+
+        function modalInit(subject, content, func, param) {
+            $("#exampleModalLabel").html(subject);
+            $("#modal_content").html(content);
+
+            $("#modal_func").on("click", function () {
+                func(param);
+            })
+        }
+
+        function deleteUserInfo(id) {
+            $.ajax({
+                url: `/UserInfo/DeleteUserInfo?id=${id}`,
+                type: "GET",
+                success: function (result) {
+
+                }
+            })
+        }
+    </script>
 }

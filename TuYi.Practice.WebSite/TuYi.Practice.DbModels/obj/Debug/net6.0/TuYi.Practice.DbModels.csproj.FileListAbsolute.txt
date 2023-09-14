@@ -10,3 +10,15 @@ D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DbModels\obj\Debug\net
 D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DbModels\obj\Debug\net6.0\refint\TuYi.Practice.DbModels.dll
 D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DbModels\obj\Debug\net6.0\TuYi.Practice.DbModels.pdb
 D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.DbModels\obj\Debug\net6.0\ref\TuYi.Practice.DbModels.dll
+C:\Users\TUYISSR\source\repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.DbModels\bin\Debug\net6.0\TuYi.Practice.DbModels.deps.json
+C:\Users\TUYISSR\Source\Repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.DbModels\bin\Debug\net6.0\TuYi.Practice.DbModels.dll
+C:\Users\TUYISSR\Source\Repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.DbModels\bin\Debug\net6.0\TuYi.Practice.DbModels.pdb
+C:\Users\TUYISSR\Source\Repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.DbModels\obj\Debug\net6.0\TuYi.Practice.DbModels.csproj.AssemblyReference.cache
+C:\Users\TUYISSR\Source\Repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.DbModels\obj\Debug\net6.0\TuYi.Practice.DbModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TUYISSR\Source\Repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.DbModels\obj\Debug\net6.0\TuYi.Practice.DbModels.AssemblyInfoInputs.cache
+C:\Users\TUYISSR\Source\Repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.DbModels\obj\Debug\net6.0\TuYi.Practice.DbModels.AssemblyInfo.cs
+C:\Users\TUYISSR\Source\Repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.DbModels\obj\Debug\net6.0\TuYi.Practice.DbModels.csproj.CoreCompileInputs.cache
+C:\Users\TUYISSR\Source\Repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.DbModels\obj\Debug\net6.0\TuYi.Practice.DbModels.dll
+C:\Users\TUYISSR\Source\Repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.DbModels\obj\Debug\net6.0\refint\TuYi.Practice.DbModels.dll
+C:\Users\TUYISSR\Source\Repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.DbModels\obj\Debug\net6.0\TuYi.Practice.DbModels.pdb
+C:\Users\TUYISSR\source\repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.DbModels\obj\Debug\net6.0\ref\TuYi.Practice.DbModels.dll

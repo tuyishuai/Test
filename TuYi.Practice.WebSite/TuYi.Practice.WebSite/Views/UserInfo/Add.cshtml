@@ -14,7 +14,7 @@
     <div class="row mb-3">
         @Html.LabelFor(s=>s.Name,new { @class = "col-sm-1 col-form-label"})
         <div class="col-md-4">
-            @Html.TextBoxFor(c=>c.Name,new { @class="form-control",@placeholder="请收入用户名" })
+            @Html.TextBoxFor(c=>c.Name,new { @class="form-control",@placeholder="请输入用户名" })
             @Html.ValidationMessageFor(c=>c.Name)
         </div>
         @Html.LabelFor(c=>c.Sex,new { @class="col-sm-1 col-form-label"})
@@ -27,7 +27,7 @@
     <div class="row mb-3">
         @Html.LabelFor(s=>s.Password,new { @class = "col-sm-1 col-form-label"})
         <div class="col-md-4">
-            @Html.PasswordFor(c=>c.Password,new { @class="form-control",@placeholder="请收入密码" })
+            @Html.PasswordFor(c=>c.Password,new { @class="form-control",@placeholder="请输入密码" })
             @Html.ValidationMessageFor(c=>c.Password)
         </div>
         @Html.LabelFor(s=>s.ConfirmPassword,new { @class = "col-sm-1 col-form-label"})
@@ -40,7 +40,7 @@
     <div class="row mb-3">
         @Html.LabelFor(s=>s.Mobile,new { @class = "col-sm-1 col-form-label"})
         <div class="col-md-4">
-            @Html.TextBoxFor(c=>c.Mobile,new { @class="form-control",@placeholder="请收入手机号" })
+            @Html.TextBoxFor(c=>c.Mobile,new { @class="form-control",@placeholder="请输入手机号" })
             @Html.ValidationMessageFor(c=>c.Mobile)
         </div>
         @Html.LabelFor(s=>s.UserType,new { @class = "col-sm-1 col-form-label"})
@@ -53,7 +53,7 @@
     <div class="row mb-3">
         @Html.LabelFor(s=>s.Address,new { @class = "col-sm-1 col-form-label"})
         <div class="col-md-9">
-            @Html.TextAreaFor(c=>c.Address,new { @class="form-control",@placeholder="请收入地址" })
+            @Html.TextAreaFor(c=>c.Address,new { @class="form-control",@placeholder="请输入地址" })
         </div>
     </div>
 

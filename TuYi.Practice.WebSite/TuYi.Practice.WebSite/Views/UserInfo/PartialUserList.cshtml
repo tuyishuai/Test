@@ -86,8 +86,8 @@
             </td>
             <td>
                 <button type="button" onclick="alert(123)" class="btn btn-info">详情</button>
-                <button type="button" onclick="alert(234)" class="btn btn-secondary">编辑</button>
-                <button type="button" onclick="confirm(ajaxDelete,@item.Id)" class="btn btn-danger">删除</button>
+                <button type="button" onclick="openEdit(@item.Id)" class="btn btn-secondary">编辑</button>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="modalInit('删除用户信息','确定删除当前数据？',deleteUserInfo,@item.Id)" class="btn btn-danger">删除</button>
             </td>
         </tr>
     }

@@ -6,7 +6,8 @@ using TuYi.Practice.DbModels;
 using TuYi.Practice.Framework.CustomEnum;
 using TuYi.Practice.Framework.Models;
 using TuYi.Practice.DTO;
-using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 
 namespace TuYi.Practice.WebSite.Controllers
 {
@@ -89,6 +90,20 @@ namespace TuYi.Practice.WebSite.Controllers
         }
 
         /// <summary>
+        /// 新增用户界面
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
+        {
+            var user = await _userInfoService.FindAsync<UserInfo>(id);
+            ViewData["userTypeList"] = CustomEnumExtend.ToSelectListByEnum(typeof(UserTypeEnum), ((int)UserTypeEnum.Administrators).ToString());
+            ViewData["userGenderList"] = CustomEnumExtend.ToSelectListByEnum(typeof(GenderEnum));
+
+            return await Task.FromResult(View(_mapper.Map<UserInfo, UserInfoDTO>(user)));
+        }
+
+        /// <summary>
         /// 新增用户后台方法
         /// </summary>
         /// <returns></returns>
@@ -116,6 +131,55 @@ namespace TuYi.Practice.WebSite.Controllers
 
                 return await Task.FromResult(View(addInfo));
             }
+        }
+
+        /// <summary>
+        /// 编辑数据
+        /// </summary>
+        /// <param name="addInfo"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public async Task<IActionResult> Edit(UserInfoDTO editInfo)
+        {
+            if (ModelState.IsValid ||
+                (ModelState["Password"]?.ValidationState == ModelValidationState.Invalid &&
+                ModelState["ConfirmPassword"]?.ValidationState == ModelValidationState.Invalid &&
+                ModelState.ErrorCount == 2))
+            {
+                var oldInfo = await _userInfoService.FindAsync<UserInfo>(editInfo.Id);
+
+                oldInfo.Name = editInfo?.Name;
+                oldInfo.Sex = editInfo?.Sex;
+                oldInfo.Mobile = editInfo?.Mobile;
+                oldInfo.Address = editInfo.Address;
+                oldInfo.LastModifyTime = DateTime.Now;
+                await _userInfoService.UpdateAsync(oldInfo);
+
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                ViewData["userTypeList"] = CustomEnumExtend.ToSelectListByEnum(typeof(UserTypeEnum), ((int)UserTypeEnum.Administrators).ToString());
+                ViewData["userGenderList"] = CustomEnumExtend.ToSelectListByEnum(typeof(GenderEnum));
+
+                return await Task.FromResult(View(editInfo));
+            }
+        }
+
+        /// <summary>
+        /// 删除数据
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [HttpGet]
+        public async Task<IActionResult> DeleteUserInfo(int id)
+        {
+            var oldInfo = await _userInfoService.FindAsync<UserInfo>(id);
+            oldInfo.Status = (int)UserStatusEnum.Delete;
+            oldInfo.LastModifyTime = DateTime.Now;
+            await _userInfoService.UpdateAsync(oldInfo);
+
+            return RedirectToAction("Index");
         }
     }
 }

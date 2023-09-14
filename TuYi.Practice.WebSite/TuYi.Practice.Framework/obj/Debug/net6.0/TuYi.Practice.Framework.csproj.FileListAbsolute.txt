@@ -10,3 +10,15 @@ D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.Framework\obj\Debug\ne
 D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.Framework\obj\Debug\net6.0\refint\TuYi.Practice.Framework.dll
 D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.Framework\obj\Debug\net6.0\TuYi.Practice.Framework.pdb
 D:\Vs2022工作项目\TuYi.Practice.WebSite\TuYi.Practice.Framework\obj\Debug\net6.0\ref\TuYi.Practice.Framework.dll
+C:\Users\TUYISSR\source\repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.Framework\bin\Debug\net6.0\TuYi.Practice.Framework.deps.json
+C:\Users\TUYISSR\Source\Repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.Framework\bin\Debug\net6.0\TuYi.Practice.Framework.dll
+C:\Users\TUYISSR\Source\Repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.Framework\bin\Debug\net6.0\TuYi.Practice.Framework.pdb
+C:\Users\TUYISSR\Source\Repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.Framework\obj\Debug\net6.0\TuYi.Practice.Framework.csproj.AssemblyReference.cache
+C:\Users\TUYISSR\Source\Repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.Framework\obj\Debug\net6.0\TuYi.Practice.Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TUYISSR\Source\Repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.Framework\obj\Debug\net6.0\TuYi.Practice.Framework.AssemblyInfoInputs.cache
+C:\Users\TUYISSR\Source\Repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.Framework\obj\Debug\net6.0\TuYi.Practice.Framework.AssemblyInfo.cs
+C:\Users\TUYISSR\Source\Repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.Framework\obj\Debug\net6.0\TuYi.Practice.Framework.csproj.CoreCompileInputs.cache
+C:\Users\TUYISSR\Source\Repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.Framework\obj\Debug\net6.0\TuYi.Practice.Framework.dll
+C:\Users\TUYISSR\Source\Repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.Framework\obj\Debug\net6.0\refint\TuYi.Practice.Framework.dll
+C:\Users\TUYISSR\Source\Repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.Framework\obj\Debug\net6.0\TuYi.Practice.Framework.pdb
+C:\Users\TUYISSR\source\repos\tuyishuai\Test\TuYi.Practice.WebSite\TuYi.Practice.Framework\obj\Debug\net6.0\ref\TuYi.Practice.Framework.dll
